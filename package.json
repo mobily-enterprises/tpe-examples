@@ -1,0 +1,31 @@
+{
+  "name": "wua-examples",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "@webcomponents/webcomponentsjs": "^2.2.4",
+    "lit-element": "^2.0.1",
+    "tpe": "^0.0.1",
+    "pwa-helpers": "^0.9.0",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "polyserve": "^0.27.15"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-lit": "^1.2.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
