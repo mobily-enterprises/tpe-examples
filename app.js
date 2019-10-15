@@ -13,7 +13,6 @@ app.use(cookieParser())
 const polyserveApp = startServer.getApp({
   moduleResolution: 'node',
   npm: true
-  //root: 'public'
 })
 app.use(polyserveApp)
 
